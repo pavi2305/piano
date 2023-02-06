@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+header {
+	margin-left: 100px;
+	display: flex;
+	align-items: center;
+}
+
+body {
+	background-image: url("bk.gif");
+}
+
+header img {
+	margin-left: 100px;
+	border: 4px solid #3127c5;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	transition: 2s;
+}
+
+
+header img:hover {
+	border: 4px solid white;
+}
+
+header h1 {
+	letter-spacing: 6px;
+	border-radius: ;
+	font-size: 80px;
+	margin-left: 80px;
+	color: white;
+	font-family: 'Inconsolata', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	transition: 2s;
+	animation-name: chg-head;
+	animation-iteration-count: infinite;
+	animation-duration: 5s;
+}
+
+@keyframes chg-head {
+	50% {
+	color: #3127c5;
+	letter-spacing: 10px;		
+	}
+}
+
+
+section {
+	background-color: black;
+	height: 400px;
+	width: 1200px;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+
+section .buts {
+	border: 2px solid rgb(60, 45, 146);
+	margin-top: 40px;
+}
+
+
+section .buts button {
+	height: 400px;
+	width: 56px;
+}
+
+section .buts button:hover {
+	background: rgb(41, 36, 124);
+}
+
+.idbut {
+	border-radius: 6px;
+	width: 20px;
+	height: 100px;
+	background-color: black;
+	margin-bottom: 200px;
+	margin-left: 28px;
+}
+
+
+.id1 {
+	border-radius: 10px solid white;
+}
